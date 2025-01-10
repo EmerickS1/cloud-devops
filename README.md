@@ -50,9 +50,17 @@ Le projet **App** hébergera l'ensemble des services nécessaires au bon fonctio
 ### 6. **Zone DNS**
 - **Création d'une zone DNS** pour permettre l'accès à l'application via un nom de domaine.
 
+### 7. **Dashboard Cloud Monitoring**
+- **Création d'un dashboard Cloud Monitoring** pour afficher les informations suivantes :
+  - **Le trafic venant du Load Balancer**.
+  - **Les métriques CPU / RAM** des instances dans le MIG.
+ 
 
 
-# Structure du projet
+
+
+
+[structure_project.md](https://github.com/user-attachments/files/18379380/structure_project.md)
 .
 ├── Projet-APP/
 │   └── main.tf/
@@ -65,7 +73,7 @@ Le projet **App** hébergera l'ensemble des services nécessaires au bon fonctio
     ├── main.tf
     ├── packerfile.pkr.hcl
     ├── playbook.yml          
-    └── variables.tf  
+    └── variables.tf          
 
 
 
@@ -76,13 +84,3 @@ Le projet **App** hébergera l'ensemble des services nécessaires au bon fonctio
 
 
 
-
-
-
-
-
-
-### 7. **Dashboard Cloud Monitoring**
-- **Création d'un dashboard Cloud Monitoring** pour afficher les informations suivantes :
-  - **Le trafic venant du Load Balancer**.
-  - **Les métriques CPU / RAM** des instances dans le MIG.
