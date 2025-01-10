@@ -50,6 +50,38 @@ Le projet **App** hébergera l'ensemble des services nécessaires au bon fonctio
 ### 6. **Zone DNS**
 - **Création d'une zone DNS** pour permettre l'accès à l'application via un nom de domaine.
 
+
+
+# Structure du projet
+.
+├── Projet-APP/
+│   └── main.tf/
+│
+├── app.tar.gz           
+│           
+└── Projet-OPS/
+    ├── src                 #app.tar decompressé
+    ├── cloudbuild.yaml
+    ├── main.tf
+    ├── packerfile.pkr.hcl
+    ├── playbook.yml          
+    └── variables.tf  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### 7. **Dashboard Cloud Monitoring**
 - **Création d'un dashboard Cloud Monitoring** pour afficher les informations suivantes :
   - **Le trafic venant du Load Balancer**.
