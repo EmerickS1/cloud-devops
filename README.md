@@ -2,7 +2,6 @@
 
 # Création d'un fichier .md avec le contenu du projet
 
-project_md = """
 # Projet Ops
 
 Le projet **Ops** servira uniquement à construire et gérer l'infrastructure applicative. Ce projet comprendra plusieurs pipelines Cloud Build qui effectueront les tâches suivantes :
