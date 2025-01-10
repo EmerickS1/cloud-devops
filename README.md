@@ -55,12 +55,8 @@ Le projet **App** hébergera l'ensemble des services nécessaires au bon fonctio
   - **Le trafic venant du Load Balancer**.
   - **Les métriques CPU / RAM** des instances dans le MIG.
  
-
-
-
-
-
-[structure_project.md](https://github.com/user-attachments/files/18379380/structure_project.md)
+# Stucture du projet
+```
 .
 ├── Projet-APP/
 │   └── main.tf/
@@ -74,7 +70,7 @@ Le projet **App** hébergera l'ensemble des services nécessaires au bon fonctio
     ├── packerfile.pkr.hcl
     ├── playbook.yml          
     └── variables.tf          
-
+```
 
 
 
